@@ -35,13 +35,13 @@ Project is structured and grouped in a standard format.
 
 * Swagger is implemented for a better testing of application instead of command line.
 
-* Please click on https://tradeListingsService.herokuapp.com/swagger-ui.html
+* Please click on https://traderslistingservice.herokuapp.com/swagger-ui.html
 
 * Use the username and password are both same i.e. admin
 
 * After that click on trade-controller and you will be able to see all the API's.
 
-* Just use the request provided to perform operations like create, update, get and delete trade listings.
+* Just use the request provided to perform operations like create, update, get and delete trade listings, for your purpose I have added 10 countries dummy data.
 
 * You may also clone the application in your local system and change the datasource parameters in property file to use any other database of your choice.
 

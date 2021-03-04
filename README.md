@@ -45,6 +45,22 @@ Project is structured and grouped in a standard format.
 
 * You may also clone the application in your local system and change the datasource parameters in property file to use any other database of your choice.
 
+#### How to setup and run in local system:
+
+* Clone the application using git clone command or download it as a zip and unzip it in your local system.
+
+* Import it as an existing maven project in your IDE(Eclipse, STS, etc.).
+
+* Change datasource paramters in application.properties folder, you may uncomment and use H2 DB config from dere or can use your own DB config.
+
+* Do mvn clean install from cmd or from IDE.
+
+* Run the application by running as Java application or using java -jar command from cmd.
+
+* Hit the url : http://localhost:8080/swagger-ui.html and enter username and password both as admin.
+
+* Click on trdae-controller and you may use any operation to play with trade-listings data.
+
 #### Assumptions Take:
 
 * Firstly, I have done the assumptions that what all I can build ready-made so anyone can directly access my application without bearing a setu pain.
